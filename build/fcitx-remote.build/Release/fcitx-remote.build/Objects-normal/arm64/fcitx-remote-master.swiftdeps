@@ -1,6 +1,0 @@
-version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
-options: "a4a403bdde4144706e008de51b2a7e16294521111299e750d5f9535b87782b48"
-build_start_time: [1649429620, 282338142]
-build_end_time: [1649429621, 301877021]
-inputs:
-  "/Users/zex/WorkSpace/fcitx-remote/fcitx-remote/main.swift": [1649429226, 440770387]
