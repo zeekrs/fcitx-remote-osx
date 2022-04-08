@@ -2,12 +2,17 @@
 
 CLI 切换输入法
 
+默认英文输入法 ABC  
+中文输入法 搜狗
+
+可修改源代码更改
+
 安装方式
 
 ```bash
 git clone https://github.com/zeekrs/fcitx-remote-osx.git
 
-xcodebuild clean install -project fcitx-remote-osx.xcodeproj    -target fcitx-remote -configuration Release DSTROOT="/"
+xcodebuild clean install -project fcitx-remote.xcodeproj    -target fcitx-remote -configuration Release DSTROOT="/"
 
 fcitx-remote  [OPTION]
 
