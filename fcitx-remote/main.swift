@@ -11,11 +11,7 @@ import Carbon
 
 let EN_KEYLAYOUT = "com.apple.keylayout.ABC"
 
-//let CN_KEYLAYOUT = "com.apple.inputmethod.SCIM.ITABC"
-let CN_KEYLAYOUT = "com.sogou.inputmethod.sogou.pinyin"
-
-
-
+let CN_KEYLAYOUT = "com.apple.inputmethod.SCIM.ITABC"
 
 func getImnameFromSource(_ source :TISInputSource) -> String{
     if let  property = TISGetInputSourceProperty(source,kTISPropertyInputSourceID) {
