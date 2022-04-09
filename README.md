@@ -2,17 +2,18 @@
 
 CLI 切换输入法
 
-默认英文输入法 ABC
+## 默认输入法
 
-中文输入法 Apple 拼音输入法
+- 英文输入法 ABC
 
-可修改源代码更改
+- 中文输入法 Apple 拼音输入法
 
-安装方式
+## 安装方式
 
 - 下载可执行文件
 
   ```bash
+
   wget -P /usr/local/bin https://github.com/zeekrs/fcitx-remote-osx/releases/download/v0.0.1/fcitx-remote
 
   chmod +x /usr/local/bin/fcitx-remote
@@ -22,9 +23,16 @@ CLI 切换输入法
 - 编译安装(可自定义输入法)
 
 ```bash
+
 git clone https://github.com/zeekrs/fcitx-remote-osx.git
 
 xcodebuild clean install -project fcitx-remote.xcodeproj    -target fcitx-remote -configuration Release DSTROOT="/"
+
+```
+
+## 使用简介
+
+```bash
 
 fcitx-remote  [OPTION]
 
